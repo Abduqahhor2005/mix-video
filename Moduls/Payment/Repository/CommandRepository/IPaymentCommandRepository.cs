@@ -1,0 +1,5 @@
+using MixVideo.Common.BaseRepository.BaseCommandGenericRepository;
+
+namespace MixVideo.Moduls.Payment.Repository.CommandRepository;
+
+public interface IPaymentCommandRepository:ICommandGenericRepository<Payment>;

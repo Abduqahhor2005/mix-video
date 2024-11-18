@@ -1,0 +1,5 @@
+using MixVideo.Common.BaseRepository.BaseCommandGenericRepository;
+
+namespace MixVideo.Moduls.Comment.Repository.CommandRepository;
+
+public interface ICommentCommandRepository:ICommandGenericRepository<Comment>;
